@@ -1,6 +1,5 @@
 <?PHP
-
-	function ft_is_sort($sort)
+function ft_is_sort($sort)
 {
 	$count = 0;
 	$default = $sort;
@@ -11,6 +10,6 @@
 			return FALSE;
 		$count++;
 	}
-	return TRUE; 
+	return TRUE;
 }
 ?>
