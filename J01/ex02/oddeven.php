@@ -5,7 +5,7 @@ echo "Entrez un nombre: ";
 while ($number = fgets(STDIN))
 {
   $number = trim($number);
-  if (is_numeric($number) || $number == 0)
+  if (is_numeric($number))
   {
 		while ($number[$i])
       $i++;

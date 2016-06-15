@@ -1,15 +1,21 @@
 #!/usr/bin/php
-<?PHP
-if ($argc >= 2)
+<?php
+function ft_epur_str($str)
 {
-	$chaine = $argv[1];
-	$arr = array_filter(explode(" ", trim($chaine)));
-	$i = 1;
-	while ($i < count($arr))
-	{
-		echo "$arr[$i] ";
-		$i += 1;
-	}
-	echo $arr[0]."\n";
+  $new = explode(" ", $str);
+  $new = array_filter($new);
+  $new = array_merge($new);
+  return ($new);
 }
+
+function ft_print_array($array)
+{
+  $nb_case = count($array);
+  for ($j = 1; $j < $nb_case  ; $j++)
+    echo ($array[$j])." ";
+  echo ($array[0])."\n";
+}
+
+if ($argc > 1)
+  ft_print_array(ft_epur_str($argv[1]));
 ?>
