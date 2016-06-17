@@ -1,0 +1,16 @@
+IMG {width: 13vmin;}
+body {background-image:url("http://wallpapercave.com/wp/LOUSKYi.jpg");}
+td {font-size: 1.2vmin; height: 6vmin; width: 6vmin; text-align:center;}
+H1 {color:white;font-size:2.3vmin}
+.blue {background:#00FFFF;border:solid black;}
+.green {background:#008000;border:solid black;}
+.red {background:#FF0000;border:solid black;}
+.orange {background:orange;border:solid black;}
+.pink {background:Pink;border:solid black;}
+.pink2 {background:#D281D2;border:solid black;}
+.gray {background:#808080;border:solid black;}
+.brown {background:#800000;border:solid black;}
+.yellow {background:yellow;border:solid black;}
+.purple {background:#B37FF7;border:solid black;}
+.l {text-align:left; font-size:1vmin;}
+.h {text-align:right; font-size:1vmin;}

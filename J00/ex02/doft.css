@@ -1,0 +1,146 @@
+.TOP {
+width: 1425px;
+height: 140px;
+background-color: #909090;
+border-radius: 10px 10px 10px 10px;
+margin: 15px auto;
+box-shadow: 6px 6px 5px 5px #202020;
+clear: both;
+}
+
+.STRUCT {
+width: 1370px;
+height: 85px;
+margin: 20px auto;
+clear: both;
+}
+
+.LEFT {
+float: left;
+width: 140px;
+height: 425px;
+background-color: #909090;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 5px 5px 4px 4px;
+clear: both;
+}
+
+.CENTER {
+    float: left;
+    width: 1020px;
+    height: 580px;
+    background-color: #909090;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 4px 4px;
+    margin: 0px 30px;
+}
+
+.RIGHT {
+float: left;
+width: 140px;
+height: 425px;
+background-color: #909090;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 5px 5px 4px 4px;
+}
+
+.IMG_TITLE {
+float: left;
+margin: 10px;
+width: 435px;
+height: 120px;
+}
+
+.IMG_RELOAD {
+float: right;
+width: 20px;
+height: 20px;
+margin: 10px;
+}
+
+.IMG_CLOSE {
+clear: right;
+float: right;
+width: 20px;
+height: 20px;
+margin-right: 10px;
+margin-top: 70px;
+}
+
+.IMG_LOUPE {
+float: right;
+width: 240px;
+height: 136px;
+margin-top: -20px;
+margin-right: 10px;
+}
+
+.IMG_LEFT {
+    float:left;
+    width:70px;
+    height:70px;
+    margin-left: 35px;
+    margin-top:10px;
+}
+.IMG_CLUSTER {
+    width: 1000px;
+    height: 560px;
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+.IMG_BOOK {
+    float:left;
+    width:65px;
+    margin-left:35px;
+    margin-top:20px;
+}
+
+.IMG_TOWEL {
+    float:left;
+    width: 70px;
+    margin-left:40px;
+    margin-top:10px;
+}
+
+.IMG_BRICK
+{
+    float: left;
+    width: 120px;
+    height: 70px;
+    margin-left:10px;
+    margin-top:10px;
+    background-image : url(resources/brick.jpg);
+    background-repeat : repeat ;
+}
+
+.BOX {
+    float: left;
+    width: 520px;
+    height: 160px;
+    background-color: #88FF89;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 6px 6px 4px 4px;
+    margin-left: -6%;
+    margin-top: -80px;
+    line-height : 0.7;
+}
+
+p {
+margin: 10px;
+font-family: Verdana, Sans-Serif;
+}
+
+.DOOR {
+    font-size: 36px;
+    font-family: Palatino ,Serif;
+}
+
+.computer {
+    text-shadow: 5px 5px 3px #D75757;
+}
+
+.input {
+    margin: 10px;
+    line-height : 2px;
+}
