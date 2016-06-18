@@ -1,0 +1,73 @@
+h1{
+    text-align:center;
+}
+
+.footer {position: absolute; bottom: 0;width:99%}
+
+.menu li{
+    display:inline;
+    margin-left:0px;
+}
+
+.footer{
+    background-color:#5aafd1;
+    float:bottom;
+}
+
+.footer h5{
+    text-align:center;
+    color:white;
+}
+
+.sidebar{
+    margin-top:30px;
+    background-color:#3F8EBF;
+    float:right;
+    width:350px;
+    height:350px;
+    margin-right:30px;
+}
+menu #a {
+    display:block;
+    color: black;
+    text-decoration:none;
+}
+#menu > li,
+#menu > li li {
+    position: relative;
+    display:inline-block;
+    width: 210px;
+    padding: 6px 15px;
+    background-color: #3596bd;
+    background-image: linear-gradient(#rrr, #888 50%, #777 50%,#999);
+}
+#menu > li:first-child {
+    border-right: 1px solid black;
+    border-radius: 5px 0 0 5px;
+    }
+#menu > li + li {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#menu > li:last-child {
+    border-right: 0;
+    border-left: 1px solid black;;
+    border-radius: 0 5px 5px 0 ;
+}
+#menu > li:hover {
+    background-color: green;
+    background-image: linear-gradient(#ccc, #aaa 50%, #999 50%,#bbb);
+}
+#menu ul {
+    position: absolute;
+    top: 2em;
+    max-height:0em;
+    margin: 0; padding: 0;
+    background-color: #3596bd;
+    background-image: linear-gradient(#fff,#ddd);
+    overflow: hidden;
+    transition: 1s max-height 0.3s;
+    border-radius: 0 0 8px 8px;
+}
+                                                                           #menu > li:hover ul {
+max-height: 138em;}
