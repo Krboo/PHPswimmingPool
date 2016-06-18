@@ -1,0 +1,43 @@
+.header h1{
+    text-align:center;
+}
+.menu li{
+display:inline;
+margin-left:0px;
+}
+
+.menu li a{
+    padding:13px 80px;
+    background-color:#5aafd1;
+    margin-right:-2px;
+    color:white;
+}
+
+.menu li a:hover {
+background-color:#3596bd;
+}
+
+.footer{
+background-color:#5aafd1;
+float:bottom;
+}
+
+.footer h5{
+    text-align:right;
+    color:white;
+    padding:10px 40px;
+}
+
+.sidebar{
+margin-top:30px;
+background-color:#3F8EBF;
+float:right;
+width:350px;
+height:350px;
+margin-right:30px;
+}
+
+.sidebar h4{
+color:white;
+text-align:center;
+}
