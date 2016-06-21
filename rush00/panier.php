@@ -1,7 +1,6 @@
 <?php
-session_start();
+include_once("includes/header.php");
 include_once("func_panier.php");
-
 $erreur = false;
 
 $action = (isset($_POST['action'])? $_POST['action']:  (isset($_GET['action'])? $_GET['action']:null )) ;

@@ -13,9 +13,6 @@ menu #a {
     background-color: green;
     background-image: linear-gradient(#aaa, #888 50%, #777 50%,#999);
 }
-#menu > li li { background: transparent none; }
-#menu > li li a { color: #444; }
-#menu > li li:hover { background:#eee; }
 #menu > li:first-child {
     border-right: 1px solid black;
     border-radius: 5px 0 0 5px;

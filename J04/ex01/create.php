@@ -12,18 +12,15 @@ if ($_POST['login'] && $_POST['passwd'])
     $data_file = "";
   $data_file = unserialize($data_file);
   if ($data_file[$_POST['login']])
-  {
     echo ("ERROR\n");
-    exit();
-  }
   else
   {
     echo ("OK\n");
     $data_file[$_POST['login']] = array("login" => $_POST['login'], "passwd" => hash("whirlpool", $_POST['passwd']));
+    $data_file = serialize($data_file);
+    file_put_contents($finename, $data_file);
   }
-  $data_file = serialize($data_file);
-  file_put_contents($finename, $data_file);
 }
-  else
-    echo ("ERROR\n");
+else
+  echo ("ERROR\n");
 ?>

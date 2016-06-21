@@ -1,26 +1,20 @@
 <?php
-
 session_start();
-$file = json_decode(file_get_contents('../database/db_user.json'));
-foreach ($file as $key) {
-	if($key->login == $_SESSION['login'])
+require_once('../redirect.php');
+$file = json_decode(file_get_contents('../database/db_user.json'), TRUE);
+foreach ($file as $key)
+{
+
+	if($key['login'] == $_SESSION['login'])
 	{
-		if($key->admin == 1)
+		if($key['admin'] == 1)
 		{
-			$admin = 1;
-			exit();
+			$_SESSION['admin'] = 1;
+			redirect('admin/admin_panel.php');
 		}
 		else {
 			echo "Acces Refuse";
 		}
 	}
 }
-echo $admin;
-if(isset($_SESSION['name']))
-	echo "youplaboum";
-else {
-	return ;
-	//header('Location: ../index.php');
-}
-
  ?>

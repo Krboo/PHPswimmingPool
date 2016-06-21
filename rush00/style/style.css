@@ -1,23 +1,27 @@
-h1{
+h1
+{
+    margin-left : 25px;
+    font-size: 32px;
+    line-height: 150px;
+    text-shadow: -1px -1px #fb6, 1px 1px #d60, -3px 0 4px #000;
+    font-family:"Segoe print", Arial, Helvetica, sans-serif;
+    color: #FF9933;
+    padding:32px;
+    font-weight:lighter;
+    -moz-box-shadow: 2px 2px 6px #888;
+    -webkit-box-shadow: 2px 2px 6px #888;
+    box-shadow:2px 2px 6px #888;
     text-align:center;
-}
-
-.footer {position: absolute; bottom: 0;width:99%}
-
-.menu li{
     display:inline;
-    margin-left:0px;
 }
 
-.footer{
-    background-color:#5aafd1;
-    float:bottom;
+                    .footer {position: absolute; bottom: 0;width:99%}
+
+                    .menu li{
+                        display:inline;
+                        margin-left:0px;
 }
 
-.footer h5{
-    text-align:center;
-    color:white;
-}
 
 .sidebar{
     margin-top:30px;
@@ -44,7 +48,7 @@ menu #a {
 #menu > li:first-child {
     border-right: 1px solid black;
     border-radius: 5px 0 0 5px;
-    }
+}
 #menu > li + li {
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -69,5 +73,5 @@ menu #a {
     transition: 1s max-height 0.3s;
     border-radius: 0 0 8px 8px;
 }
-                                                                           #menu > li:hover ul {
-max-height: 138em;}
+#menu > li:hover ul {
+    max-height: 138em;}
