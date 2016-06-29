@@ -1,13 +1,17 @@
 <?php
-
-class NightsWatch implements IFighter {
-  private $_fight;
-  public function recruit( $action) {
-    if (method_exists( $action, 'fight'))
-      $_fight = $action->fight() . PHP_EOL;
+class NightsWatch {
+  private $_gardes = array();
+  public function recruit($postulent) {
+    if (is_a($postulent, "IFighter")) {
+      $this->gardes[] = $postulent;
+    }
+    return;
   }
   public function fight() {
-    print($_fight);
+    foreach ($this->gardes as $garde) {
+      $garde->fight();
+    }
+    return;
   }
 }
 ?>

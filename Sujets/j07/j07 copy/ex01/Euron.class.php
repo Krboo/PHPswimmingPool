@@ -1,4 +1,5 @@
 <?php
+
 include('Greyjoy.class.php');
 
 class Euron extends Greyjoy {
@@ -6,4 +7,5 @@ class Euron extends Greyjoy {
 		print($this->familyMotto . PHP_EOL);
 	}
 }
+
 ?>
